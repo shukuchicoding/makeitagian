@@ -19,6 +19,8 @@ public class MaBu implements Object {
 	private BufferedImage image;
 	private Rectangle rectBound;
 
+	public float hp = 30;
+	
 	public MaBu(float posX, float posY, float speedY, int directionY) {
 		image = Resource.getResourceImage("data/Buu_0.png");
 		this.posX = posX;
